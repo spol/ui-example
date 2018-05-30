@@ -1,0 +1,16 @@
+<div class="todo-form-action">
+  {{#if todo.isNew}}
+    &plus;
+  {{else}}
+    {{input type="checkbox" checked=todo.done}}
+  {{/if}}
+</div>
+<form {{action "save" on="submit"}}>
+  {{input
+    value=todo.task
+    autocomplete="off"
+    insert-newline=(action "save")
+    focus-out=(action "save")
+    classNames="todo-form-task"
+  }}
+</form>
