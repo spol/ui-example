@@ -2102,7 +2102,7 @@ ember-cli-htmlbars-inline-precompile@^1.0.0:
     heimdalljs-logger "^0.1.7"
     silent-error "^1.1.0"
 
-ember-cli-htmlbars@^2.0.1, ember-cli-htmlbars@^2.0.3:
+ember-cli-htmlbars@^2.0.1:
   version "2.0.3"
   resolved "https://npm.apple.com/ember-cli-htmlbars/-/ember-cli-htmlbars-2.0.3.tgz#e116e1500dba12f29c94b05b9ec90f52cb8bb042"
   dependencies:
@@ -2196,16 +2196,6 @@ ember-cli-sass@^7.1.7:
     broccoli-merge-trees "^1.1.0"
     broccoli-sass-source-maps "^2.1.0"
     ember-cli-version-checker "^2.1.0"
-
-ember-cli-shims@^1.2.0:
-  version "1.2.0"
-  resolved "https://npm.apple.com/ember-cli-shims/-/ember-cli-shims-1.2.0.tgz#0f53aff0aab80b5f29da3a9731bac56169dd941f"
-  dependencies:
-    broccoli-file-creator "^1.1.1"
-    broccoli-merge-trees "^2.0.0"
-    ember-cli-version-checker "^2.0.0"
-    ember-rfc176-data "^0.3.1"
-    silent-error "^1.0.1"
 
 ember-cli-sri@^2.1.0:
   version "2.1.1"
@@ -2454,7 +2444,7 @@ ember-rfc176-data@^0.2.0:
   version "0.2.7"
   resolved "https://npm.apple.com/ember-rfc176-data/-/ember-rfc176-data-0.2.7.tgz#bd355bc9b473e08096b518784170a23388bc973b"
 
-ember-rfc176-data@^0.3.0, ember-rfc176-data@^0.3.1, ember-rfc176-data@^0.3.3:
+ember-rfc176-data@^0.3.0, ember-rfc176-data@^0.3.3:
   version "0.3.3"
   resolved "https://npm.apple.com/ember-rfc176-data/-/ember-rfc176-data-0.3.3.tgz#27fba08d540a7463a4366c48eaa19c5a44971a39"
 
@@ -2488,14 +2478,6 @@ ember-source@~3.1.0:
     inflection "^1.12.0"
     jquery "^3.3.1"
     resolve "^1.5.0"
-
-ember-welcome-page@^3.0.0:
-  version "3.2.0"
-  resolved "https://npm.apple.com/ember-welcome-page/-/ember-welcome-page-3.2.0.tgz#fe9903dbbaccfb4a2a05f42c716b7d07470f2d78"
-  dependencies:
-    broccoli-funnel "^1.0.1"
-    ember-cli-babel "^6.6.0"
-    ember-cli-htmlbars "^2.0.3"
 
 encodeurl@~1.0.2:
   version "1.0.2"
