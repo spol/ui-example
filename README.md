@@ -1,7 +1,6 @@
-# ui-interview
+# UI Interview App
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a simple app that displays a list of TODOs in the style of Reminders on macOS / iOS.
 
 ## Prerequisites
 
