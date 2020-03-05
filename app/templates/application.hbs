@@ -3,9 +3,9 @@
     <h1>What&rsquo;s Next</h1>
   </header>
   <ul class="todos">
-    {{#each visibleTodos as |todo|}}
-      {{todo-form todo=todo}}
+    {{#each this.visibleTodos as |todo|}}
+      <TodoForm @todo={{todo}} />
     {{/each}}
-    {{todo-form}}
+    <TodoForm />
   </ul>
 </div>

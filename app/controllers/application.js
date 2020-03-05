@@ -1,10 +1,12 @@
 import Controller from '@ember/controller';
 import { alias, filter } from '@ember/object/computed';
 
-export default Controller.extend({
-  todos: alias('model'),
+export default class ApplicationController extends Controller {
+  @alias('model')
+  todos;
 
-  visibleTodos: filter('todos.@each.{id,done}', function(todo) {
+  @filter('todos.@each.{id,done}', function(todo){
     return todo.id && !todo.done;
-  }),
-})
+  })
+  visibleTodos;
+}

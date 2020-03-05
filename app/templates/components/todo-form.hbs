@@ -1,16 +1,18 @@
-<div class="todo-form-action">
-  {{#if todo.isNew}}
-    &plus;
-  {{else}}
-    {{input type="checkbox" checked=todo.done}}
-  {{/if}}
-</div>
-<form {{action "save" on="submit"}}>
-  {{input
-    value=todo.task
-    autocomplete="off"
-    insert-newline=(action "save")
-    focus-out=(action "save")
-    classNames="todo-form-task"
-  }}
-</form>
+<li class="todo-form" ...attributes>
+  <div class="todo-form-action">
+    {{#if this.todo.isNew}}
+      &plus;
+    {{else}}
+      <Input @type="checkbox" @checked={{this.todo.done}} />
+    {{/if}}
+  </div>
+  <form {{on "submit" this.save}}>
+    <Input
+      @value={{this.todo.task}}
+      @insert-newline={{this.save}}
+      @focus-out={{this.save}}
+      class="todo-form-task"
+      autocomplete="off"
+    />
+  </form>
+</li>
