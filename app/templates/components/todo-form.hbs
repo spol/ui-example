@@ -3,7 +3,7 @@
     {{#if this.todo.isNew}}
       &plus;
     {{else}}
-      <Input @type="checkbox" @checked={{this.todo.done}} />
+      <Input @type="checkbox" @checked={{this.todo.done}} @toggle={{this.save}} />
     {{/if}}
   </div>
   <form {{on "submit" this.save}}>
