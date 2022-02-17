@@ -57,5 +57,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "resolutions": {
+    "whatwg-fetch": "3.3.1"
   }
 }
