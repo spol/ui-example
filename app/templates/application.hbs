@@ -1,5 +1,12 @@
 <div class="frame">
   <header>
+    <!-- Allow users to toggle completed TODOs -->
+    <div class="show-completed">
+      <Input @type="checkbox" @checked={{this.showCompleted}} />
+      <label>Show completed</label>
+    </div>
+
+
     <h1>What&rsquo;s Next</h1>
   </header>
   <ul class="todos">

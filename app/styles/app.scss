@@ -61,6 +61,14 @@ header {
   }
 }
 
+.show-completed {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .todos {
   list-style: none;
   padding: 0;
